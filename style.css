@@ -39,15 +39,16 @@ h1 {
   padding-top: 100px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .flex-container {
-width: 100%
+width: 100%;
 height: auto;
 display: flex;
-flex-direction: column;
-align-items: center;
 }
+
 .flex-box {
-  width: 600px;
+  display: flex;
+  width: 100%;
   height: 200px;
   background-color: white;
   color: black;
@@ -55,6 +56,21 @@ align-items: center;
   line-height: 200px;
   border-radius: 20px;
   margin: 10px;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 
+.itemOne {
+  background-color: aqua;
+  width: 25%;
+}
 
+.itemTwo {
+  background-color: beige;
+  width: 25%;
+}
+
+.itemThree {
+  background-color: yellow;
+  width: 25%;
+}
