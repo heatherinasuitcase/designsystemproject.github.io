@@ -70,6 +70,8 @@ flex-direction: column;
   padding: 20px;
   margin-left: 280px;
   text-align: center;
+  /* Flexbox was adding a line height of 200px, that's why all of the text was pushed so far down */
+  line-height: normal;
 }
 /* Color blocks */
 /* CSS HEX
@@ -78,11 +80,15 @@ flex-direction: column;
 --Pink: #FFB3BA;
 */
 .itemOne {
+  /* Aligned items to center and added padding top to push them to the middle */
+  padding-top: 50px;
+  align-items: center;
   background-color: #420420;
   width: 25%;
   border-radius: 15px;
   color: white;
 }
+
 .itemTwo {
   background-color: #8D4559;
   width: 25%;
