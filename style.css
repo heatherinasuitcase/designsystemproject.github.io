@@ -71,9 +71,6 @@ justify-items: center;
   margin: 10px;
   margin-left: 280px;
   }
-  .styles h1 {
-  text-align: left;
-}
 
 /* Color blocks */
 /* CSS HEX
@@ -121,7 +118,7 @@ footer {
   text-align: center;
   padding: 10px;
   background-color: #F4B9B8;
+  margin-top: 5%;
   font-size: 12px;
 }
 /* Text Styles */
-
