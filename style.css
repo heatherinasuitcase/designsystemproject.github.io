@@ -122,3 +122,9 @@ footer {
   font-size: 12px;
 }
 /* Text Styles */
+ul {
+  text-align: left;
+  }
+#h1 {
+  color: black;
+}
